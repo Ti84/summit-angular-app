@@ -1,3 +1,13 @@
 .home-container {
     width:100%;
+    .home-txt {
+        font-size:20px;
+    }
+    .home-img {
+        height: 51vh;
+    }
+    .col-centered {
+        margin: 0 auto;
+        float: none;
+    }
 }
