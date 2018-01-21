@@ -1,15 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { NewsComponent } from './news.component';
+import { AboutUsComponent } from './about-us.component';
 
 @NgModule({
     declarations: [
-        NewsComponent
+        AboutUsComponent
     ],
     imports: [
       BrowserModule
     ],
     providers: []
   })
-  export class NewsModule { }
+  export class AboutUsModule { }
   
