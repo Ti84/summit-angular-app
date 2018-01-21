@@ -1,5 +1,47 @@
-.app-container{
-    .home-logo {
-        height:61px;
+body {
+    height:100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    opacity: 75%;
+    max-height: 100%;
+    background: url("../assets/images/rocky-mountains.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.app-container {
+  .top-head {
+    height: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .home-logo {
+    height: 6vh;
+  }
+  .scroll-element {
+    padding: 0;
+    background-color: white;
+    min-height: 100%;
+  }
+  .container-fluid {
+    background: white;
+    color: black;
+  }
+  .navbar {
+    .navbar-collapse {
+      text-align: center;
     }
+    .navbar-nav {
+      display: inline-block;
+      float: none;
+      vertical-align: top;
+    }
+    .navbar-default {
+      background: white;
+      color: black;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+    }
+  }
 }
