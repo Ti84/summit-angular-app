@@ -11,7 +11,6 @@ body {
     background: url("../assets/images/rocky-mountains.jpg") no-repeat center center fixed;
     background-size: cover;
 }
-
 .app-container {
   height:100%;
   .top-head {
@@ -21,7 +20,8 @@ body {
     text-align: center;
   }
   .home-logo {
-    height: 6vh;
+    height: 7vh;
+    margin-top: 11px;
   }
   .scroll-element {
     padding: 0;
