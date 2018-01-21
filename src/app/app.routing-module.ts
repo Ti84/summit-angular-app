@@ -1,5 +1,8 @@
 import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-     { path: '**', redirectTo: '/home' }
+     { path: '**', redirectTo: 'home' },
+     { path: 'home', component: HomeComponent }
 ]
+export const routing = RouterModule.forRoot(routes);
